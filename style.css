@@ -40,6 +40,7 @@ body {
   flex: 1;
   padding: 0;
   margin: 0;
+  max-width: 425px;
 }
 
 button {
@@ -69,10 +70,84 @@ button {
   width: 425px;  
 }
 
+.container {
+  display: flex;
+  gap: 52px;
+}
+
+.information {
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.image-box {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882F6;
+  border-radius: 16px;
+}
+
+.info-header {
+  flex: 1;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+}
+
+.text { 
+  max-width: 150px;
+  padding: 8px 4px;
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+}
+
 ul {
   list-style: none;
   display: flex;
   gap: 16px;
   font-size: 18px;
+  color: #E5E7EB;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  flex: auto;
+  font-weight: 300;
+  max-width: 825px;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: right;
+  align-self: flex-end;
+  padding-right: 128px;
+}
+
+.footer {
+  background-color: #1F2937;
+  height: 96px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #E5E7EB;
 }
