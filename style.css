@@ -29,7 +29,7 @@ body {
   background-color: #1F2937;
   padding: 96px 196px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .left {
